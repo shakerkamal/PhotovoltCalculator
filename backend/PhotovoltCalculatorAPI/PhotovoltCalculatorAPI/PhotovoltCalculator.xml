@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PhotovoltCalculatorAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProductController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProductController.Get(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProductController.Post(PhotovoltCalculatorAPI.Models.ProductModels.CreateProduct)">
+            <summary>
+            
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProductController.Put(PhotovoltCalculatorAPI.Models.ProductModels.UpdateProduct)">
+            <summary>
+            
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProductController.Delete(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProjectController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProjectController.Get(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProjectController.Post(PhotovoltCalculatorAPI.Models.ProjectModels.CreateProject)">
+            <summary>
+            
+            </summary>
+            <param name="project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProjectController.Put(PhotovoltCalculatorAPI.Models.ProjectModels.UpdateProject)">
+            <summary>
+            
+            </summary>
+            <param name="project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.ProjectController.Delete(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.UserController.Get(System.Guid)">
+            <summary>
+            Gets User details by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.UserController.Post(PhotovoltCalculatorAPI.Models.UserModels.RegisterUser)">
+            <summary>
+            Creates a new User by Registering in the application
+            </summary>
+            <param name="registerUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.UserController.VerifyEmail(PhotovoltCalculatorAPI.Models.UserModels.VerifyEmailRequest)">
+            <summary>
+            Verifies the email of a registered user
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.UserController.Post(PhotovoltCalculatorAPI.Models.UserModels.AuthenticateUserRequest)">
+            <summary>
+            Authenticating user
+            </summary>
+            <param name="authenticateUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.UserController.RefreshToken">
+            <summary>
+            Generates a new jwt access token by fetching the refresh token from cookie
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.UserController.Put(PhotovoltCalculatorAPI.Models.UserModels.UpdateUser)">
+            <summary>
+            Updates the User entity based on the data provided
+            </summary>
+            <param name="updateUser"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PhotovoltCalculatorAPI.Controllers.UserController.Delete(System.Guid)">
+            <summary>
+            Deletes a used based on the data provided
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

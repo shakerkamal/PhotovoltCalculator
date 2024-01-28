@@ -1,0 +1,8 @@
+/* .ajaira{
+  background-color: aqua;
+} */
+
+.example-spacer {
+  background-color: aqua;
+  flex: 1 1 auto;
+}
